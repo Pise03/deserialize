@@ -11,6 +11,11 @@ public class root {
         private String specializzazione;
         private List<element> studenti = new ArrayList<>();
 
+        
+
+        public root() {
+        }
+
         public String getAnnoDiInizio() {
                 return this.annoDiInizio;
         }
